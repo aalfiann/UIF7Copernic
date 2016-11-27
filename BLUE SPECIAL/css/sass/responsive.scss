@@ -1,0 +1,263 @@
+/* -----------------------------------*/
+
+/* ---------->>> MEDIA QUERIES <<<-----------*/
+
+/* -----------------------------------*/
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+form.login {
+    margin-top: 45px;
+}
+.login-screen-content .login-screen-title {
+    font-size: 30px!important;
+    margin-top: 55px;
+}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+.row.home {
+    margin-bottom: 25px;
+}
+.row .col-33 {
+    width: 19.333333%;
+}
+form.login {
+    margin-top: 15px;
+}
+.login-screen-content .login-screen-title {
+    font-size: 30px!important;
+    margin-top: 25px;
+}
+.container {
+    height: 250px;
+    margin-top: -50px;
+}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {}
+/* Portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+.login-screen-content .login-screen-title {
+    font-size: 30px!important;
+    margin-top: 90px;
+}
+.container {
+    margin-top: 40px;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+.row.home {
+    margin-bottom: 25px;
+}
+.row .col-33 {
+    width: 15.333333%;
+}
+.login-screen-content .login-screen-title {
+    font-size: 30px!important;
+    margin-top: 25px;
+}
+.container {
+    height: 320px!important;
+    margin-top: -53px!important;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+.row.home {
+    margin-bottom: 18px;
+}
+.row .col-33 {
+    width: 19.333333%!important;
+}
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+.login-screen-content .login-screen-title {
+    margin-top: 120px;
+}
+p.error {
+    font-size: 200px;
+}
+.container {
+    margin-top: 50px;
+}
+}
+/* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+.row.home {
+    margin-bottom: 25px;
+}
+.row .col-33 {
+    width: 14.333333%;
+}
+.login-screen-content .login-screen-title {
+    margin-top: 45px;
+}
+.container {
+    margin-top: -35px;
+}
+}
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+.login-screen-content .login-screen-title {
+    margin-top: 165px;
+}
+.container {
+    margin-top: 105px;
+}
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+.row.home {
+    margin-bottom: 25px;
+}
+.row .col-33 {
+    width: 14.333333%;
+}
+.login-screen-content .login-screen-title {
+    margin-top: 70px;
+}
+}
+
+
+
+/* ----------- iPad mini ----------- */
+
+/* ----------- iPad 1 and 2 ----------- */
+
+/* ----------- iPad 3 and 4 ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+.row.home {
+    margin-top: 80px;
+    margin-bottom: 125px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.row .col-33 {
+    width: 16.333333%;
+}
+.login-screen-content .login-screen-title {
+    font-size: 40px!important;
+    margin-top: 190px;
+}
+form.login{
+    margin-top: 100px;
+}
+p.error {
+    font-size: 300px!important;
+}
+.container {
+    margin-top: 160px;
+}
+}
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+ .row.home {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.row .col-33 {
+    width: 11.333333%;
+}
+.login-screen-content .login-screen-title {
+    font-size: 40px!important;
+    margin-top: 140px;
+}
+form.login{
+    margin-top: 100px;
+}
+p.error {
+    font-size: 300px!important;
+}
+.container {
+    margin-top: 80px;
+}
+}
+
+
+
+
+/* ----------- Nexus 6 ----------- */
+
+@media only screen and (min-device-width: 412px) and (max-device-width: 690px) and (-webkit-min-device-pixel-ratio: 3.5) and (orientation: portrait) {
+.row.home {
+    margin-bottom: 45px;
+}
+.row .col-33 {
+    width: 25.333333%;
+}
+.login-screen-content .login-screen-title {
+    margin-top: 120px;
+}
+form.login{
+    margin-top: 100px;
+}
+}
+
+@media only screen and (min-device-width: 412px) and (max-device-width: 690px) and (-webkit-min-device-pixel-ratio: 3.5) and (orientation: landscape) {
+.row.home {
+    margin-bottom: 45px;
+}
+.row .col-33 {
+    width: 13.333333%;
+}
+.login-screen-content .login-screen-title {
+    margin-top: 45px;
+}
+form.login{
+    margin-top: 60px;
+}
+}
+/* ----------- Galaxy Tab 10.1 ----------- */
+
+/* Portrait and Landscape */
+
+@media (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: portrait) {
+.row.home {
+    margin-bottom: 45px;
+}
+.row .col-33 {
+    width: 25.333333%;
+}
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+.row.home {
+    margin-bottom: 90px;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+.row .col-33 {
+    width: 13.333333%;
+}
+}
+
+@media (max-device-width: 800px) and (orientation: portrait) {}@media (min-device-width: 600px) and (max-device-width: 610px) and (orientation: portrait) {
+}
+/* ----------- LAPTOP ----------- */
+
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+}

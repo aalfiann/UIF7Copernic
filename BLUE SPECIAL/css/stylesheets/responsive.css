@@ -1,0 +1,308 @@
+/* -----------------------------------*/
+/* ---------->>> MEDIA QUERIES <<<-----------*/
+/* -----------------------------------*/
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+  /* line 12, ../sass/responsive.scss */
+  form.login {
+    margin-top: 45px;
+  }
+
+  /* line 15, ../sass/responsive.scss */
+  .login-screen-content .login-screen-title {
+    font-size: 30px !important;
+    margin-top: 55px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+  /* line 21, ../sass/responsive.scss */
+  .row.home {
+    margin-bottom: 25px;
+  }
+
+  /* line 24, ../sass/responsive.scss */
+  .row .col-33 {
+    width: 19.333333%;
+  }
+
+  /* line 27, ../sass/responsive.scss */
+  form.login {
+    margin-top: 15px;
+  }
+
+  /* line 30, ../sass/responsive.scss */
+  .login-screen-content .login-screen-title {
+    font-size: 30px !important;
+    margin-top: 25px;
+  }
+
+  /* line 34, ../sass/responsive.scss */
+  .container {
+    height: 250px;
+    margin-top: -50px;
+  }
+}
+/* Portrait */
+/* ----------- iPhone 5 and 5S ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  /* line 51, ../sass/responsive.scss */
+  .login-screen-content .login-screen-title {
+    font-size: 30px !important;
+    margin-top: 90px;
+  }
+
+  /* line 55, ../sass/responsive.scss */
+  .container {
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  /* line 61, ../sass/responsive.scss */
+  .row.home {
+    margin-bottom: 25px;
+  }
+
+  /* line 64, ../sass/responsive.scss */
+  .row .col-33 {
+    width: 15.333333%;
+  }
+
+  /* line 67, ../sass/responsive.scss */
+  .login-screen-content .login-screen-title {
+    font-size: 30px !important;
+    margin-top: 25px;
+  }
+
+  /* line 71, ../sass/responsive.scss */
+  .container {
+    height: 320px !important;
+    margin-top: -53px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  /* line 78, ../sass/responsive.scss */
+  .row.home {
+    margin-bottom: 18px;
+  }
+
+  /* line 81, ../sass/responsive.scss */
+  .row .col-33 {
+    width: 19.33333% !important;
+  }
+}
+/* ----------- iPhone 6 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  /* line 91, ../sass/responsive.scss */
+  .login-screen-content .login-screen-title {
+    margin-top: 120px;
+  }
+
+  /* line 94, ../sass/responsive.scss */
+  p.error {
+    font-size: 200px;
+  }
+
+  /* line 97, ../sass/responsive.scss */
+  .container {
+    margin-top: 50px;
+  }
+}
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  /* line 104, ../sass/responsive.scss */
+  .row.home {
+    margin-bottom: 25px;
+  }
+
+  /* line 107, ../sass/responsive.scss */
+  .row .col-33 {
+    width: 14.333333%;
+  }
+
+  /* line 110, ../sass/responsive.scss */
+  .login-screen-content .login-screen-title {
+    margin-top: 45px;
+  }
+
+  /* line 113, ../sass/responsive.scss */
+  .container {
+    margin-top: -35px;
+  }
+}
+/* ----------- iPhone 6+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  /* line 121, ../sass/responsive.scss */
+  .login-screen-content .login-screen-title {
+    margin-top: 165px;
+  }
+
+  /* line 124, ../sass/responsive.scss */
+  .container {
+    margin-top: 105px;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  /* line 129, ../sass/responsive.scss */
+  .row.home {
+    margin-bottom: 25px;
+  }
+
+  /* line 132, ../sass/responsive.scss */
+  .row .col-33 {
+    width: 14.333333%;
+  }
+
+  /* line 135, ../sass/responsive.scss */
+  .login-screen-content .login-screen-title {
+    margin-top: 70px;
+  }
+}
+/* ----------- iPad mini ----------- */
+/* ----------- iPad 1 and 2 ----------- */
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  /* line 151, ../sass/responsive.scss */
+  .row.home {
+    margin-top: 80px;
+    margin-bottom: 125px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+
+  /* line 157, ../sass/responsive.scss */
+  .row .col-33 {
+    width: 16.333333%;
+  }
+
+  /* line 160, ../sass/responsive.scss */
+  .login-screen-content .login-screen-title {
+    font-size: 40px !important;
+    margin-top: 190px;
+  }
+
+  /* line 164, ../sass/responsive.scss */
+  form.login {
+    margin-top: 100px;
+  }
+
+  /* line 167, ../sass/responsive.scss */
+  p.error {
+    font-size: 300px !important;
+  }
+
+  /* line 170, ../sass/responsive.scss */
+  .container {
+    margin-top: 160px;
+  }
+}
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  /* line 177, ../sass/responsive.scss */
+  .row.home {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+
+  /* line 183, ../sass/responsive.scss */
+  .row .col-33 {
+    width: 11.333333%;
+  }
+
+  /* line 186, ../sass/responsive.scss */
+  .login-screen-content .login-screen-title {
+    font-size: 40px !important;
+    margin-top: 140px;
+  }
+
+  /* line 190, ../sass/responsive.scss */
+  form.login {
+    margin-top: 100px;
+  }
+
+  /* line 193, ../sass/responsive.scss */
+  p.error {
+    font-size: 300px !important;
+  }
+
+  /* line 196, ../sass/responsive.scss */
+  .container {
+    margin-top: 80px;
+  }
+}
+/* ----------- Nexus 6 ----------- */
+@media only screen and (min-device-width: 412px) and (max-device-width: 690px) and (-webkit-min-device-pixel-ratio: 3.5) and (orientation: portrait) {
+  /* line 207, ../sass/responsive.scss */
+  .row.home {
+    margin-bottom: 45px;
+  }
+
+  /* line 210, ../sass/responsive.scss */
+  .row .col-33 {
+    width: 25.333333%;
+  }
+
+  /* line 213, ../sass/responsive.scss */
+  .login-screen-content .login-screen-title {
+    margin-top: 120px;
+  }
+
+  /* line 216, ../sass/responsive.scss */
+  form.login {
+    margin-top: 100px;
+  }
+}
+@media only screen and (min-device-width: 412px) and (max-device-width: 690px) and (-webkit-min-device-pixel-ratio: 3.5) and (orientation: landscape) {
+  /* line 222, ../sass/responsive.scss */
+  .row.home {
+    margin-bottom: 45px;
+  }
+
+  /* line 225, ../sass/responsive.scss */
+  .row .col-33 {
+    width: 13.333333%;
+  }
+
+  /* line 228, ../sass/responsive.scss */
+  .login-screen-content .login-screen-title {
+    margin-top: 45px;
+  }
+
+  /* line 231, ../sass/responsive.scss */
+  form.login {
+    margin-top: 60px;
+  }
+}
+/* ----------- Galaxy Tab 10.1 ----------- */
+/* Portrait and Landscape */
+@media (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: portrait) {
+  /* line 240, ../sass/responsive.scss */
+  .row.home {
+    margin-bottom: 45px;
+  }
+
+  /* line 243, ../sass/responsive.scss */
+  .row .col-33 {
+    width: 25.333333%;
+  }
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  /* line 248, ../sass/responsive.scss */
+  .row.home {
+    margin-bottom: 90px;
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+
+  /* line 253, ../sass/responsive.scss */
+  .row .col-33 {
+    width: 13.333333%;
+  }
+}
+/* ----------- LAPTOP ----------- */
